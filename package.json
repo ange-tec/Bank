@@ -1,0 +1,23 @@
+{
+  "name": "codabank",
+  "version": "1.0.0",
+  "description": "project coda bank",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ange-tec/Bank.git"
+  },
+  "author": "Ange MOUDZOUMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ange-tec/Bank/issues"
+  },
+  "homepage": "https://github.com/ange-tec/Bank#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
