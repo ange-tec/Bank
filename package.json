@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ange-tec/Bank#readme",
   "devDependencies": {
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
   }
 }
