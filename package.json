@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "project coda bank",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,9 +19,16 @@
   },
   "homepage": "https://github.com/ange-tec/Bank#readme",
   "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/prompt-sync": "^4.2.3",
+    "@types/prompts": "^2.4.9",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "prompts": "^2.4.2"
+    "@types/password-hash": "^1.2.24",
+    "inquirer": "^12.3.0",
+    "prompt-sync": "^4.2.0",
+    "prompts": "^2.4.2",
+    "tsx": "^4.19.2"
   }
 }

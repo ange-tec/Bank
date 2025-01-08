@@ -97,11 +97,11 @@ Cette application doit être développée avec Typescript, et doit être exécut
   - Exemple :
     ```typescript
     {
-      title: 'Déposer de l\'argent',
-      value: 'deposit',
+      title: 'Déposer de l\'argent'
+      value: 'deposit'
       action: () => {
         console.log("Déposer de l'argent");
-      },
+      }
     }
     ```
 - Attention, on ne peut pas lancer un CLI dans un autre CLI _(pas de `prompt` dans une fonction qui est déjà appelée par un `prompt`)_
